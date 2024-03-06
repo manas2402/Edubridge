@@ -1,0 +1,29 @@
+What is build :  the term "build" refers to the process of compiling and linking source code files to create an executable or deployable software application. The build process involves translating human-readable source code written in programming languages (such as Java, C++, Python, etc.) into machine-readable code that a computer can execute.
+
+What is Project : a "project" refers to a planned and organized effort to achieve a specific goal by creating a software product or system. A project typically involves various tasks, activities, and resources that are coordinated and managed to produce a desired outcome within specified constraints, such as time, budget, and scope.
+
+What is version : a "version" refers to a specific release or iteration of a software product. Versions are used to denote different states or stages of the software's development, and they are typically assigned a unique identifier to distinguish one from another. Managing versions is crucial for tracking changes, facilitating collaboration, and ensuring that users have access to the latest updates or improvements.
+
+What is deployment : "deployment" refers to the process of making a software application or system available and operational for use. It involves taking the compiled and tested code, along with any necessary resources, and installing or distributing it to a target environment where end-users can access and interact with the software. Deployment is a crucial step in the software development lifecycle, transitioning a project from development to production.
+
+What is Beta : "beta" release refers to a pre-release version of a software product that is made available to a limited group of users for testing and feedback. The beta phase occurs after the alpha phase, where the software is typically tested internally by the development team.
+
+What is Refactor : It is the process of restructuring existing code without changing its external behavior. The primary goal of refactoring is to improve the internal structure of the code, making it more readable, maintainable, and efficient, while preserving its functionality.
+
+What is a walkthrough : A "walkthrough" of a feature in software development is a collaborative and systematic examination or review of a specific functionality or aspect of a software application. The purpose of a walkthrough is to ensure that all relevant stakeholders, including developers, testers, product managers, and other team members, have a clear understanding of the feature, its requirements, and its implementation. Walkthroughs are often conducted before or during the development process to catch issues early, gather feedback, and promote collaboration.
+
+What is BRS : BRS" typically stands for "Business Requirements Specification" or "Business Requirement Document." The BRS is a formal document that outlines the high-level business requirements for a software project. It serves as a crucial communication tool between stakeholders, including business analysts, project managers, developers, and other team members involved in the software development process.
+
+What is CRS : CRS as Customer Requirements Specification: Similar to BRS (Business Requirements Specification), CRS can stand for Customer Requirements Specification. This document outlines the specific requirements and expectations of the end-users or customers regarding a software product. It focuses on understanding the needs and preferences of the target users and serves as a foundation for the development team to create a system that meets those requirements.
+
+What is LLD :  "LLD" typically stands for "Low-Level Design." Low-Level Design is a phase in the software development process that follows the high-level design phase and precedes coding or implementation. During the Low-Level Design phase, developers create detailed design specifications that outline how the system or software components will be implemented at a lower, more granular level.
+
+What is RAD : RAD is a software development methodology that prioritizes quick development and iteration of prototypes or working models. The emphasis is on minimizing planning overhead and accelerating the 
+    development process to deliver a functional product rapidly.
+    Key Characteristics:
+    Iterative Prototyping: RAD involves creating prototypes that evolve based on continuous feedback from users and stakeholders.
+    User Involvement: Users are actively involved throughout the development process to provide feedback and ensure the system meets their needs.
+    Incremental Development: RAD breaks down the development process into small, manageable increments, allowing for faster and more frequent releases.
+    Time-Boxed Development: RAD projects are often time-boxed, with fixed deadlines for the delivery of prototypes or increments.
+
+What is Prototype : a "prototype" refers to an early, simplified version of a software product that is created to test and demonstrate certain aspects of its functionality, design, and user experience. The primary purpose of building a prototype is to gather feedback, validate ideas, and refine the requirements before investing significant resources into full-scale development. Prototyping is a common practice in various software development methodologies, including Rapid Application Development (RAD) and Agile.
