@@ -1,0 +1,12 @@
+Requirement Analysis: 
+    In this initial phase, the quality assurance team comprehends the software requirements. Activities include reviewing the software requirements document (SRD), interviewing stakeholders, identifying ambiguities     or inconsistencies, and assessing risks. The goal is to understand what needs to be tested.
+Test Planning:
+    During this phase, the testing team plans the testing activities. It involves defining the scope of testing, setting entry and exit criteria, and creating test plans. The focus is on organizing resources and .      creating a roadmap for testing.
+Test Case Development:
+    Here, the testing team designs and develops test cases based on the requirements. Test cases cover various scenarios, positive and negative paths, and edge cases. The aim is to ensure comprehensive test             coverage.
+Test Environment Setup:
+    In this phase, the testing environment is prepared. It includes configuring hardware, software, databases, and network settings. The goal is to create an environment that mirrors the production setup.
+Test Execution:
+    During execution, the actual testing takes place. Test cases are executed, defects are identified, and results are recorded. The focus is on validating the software against requirements.
+Test Closure:
+    The final phase involves closing the testing cycle. It includes analyzing test results, generating reports, and assessing whether the software meets quality standards. The goal is to decide whether the software     is ready for release.
