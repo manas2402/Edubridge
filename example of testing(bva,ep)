@@ -1,0 +1,81 @@
+bva
+
+Consider a simple scenario where we need to validate user input for a system that accepts an age. The acceptable age range is from 18 to 65 years. Here are the boundary values we’ll examine:
+
+Lower Bound: The minimum age allowed is 18 years. We’ll test with an input of 17 years to ensure it’s rejected.
+Upper Bound: The maximum age allowed is 65 years. We’ll test with an input of 66 years to verify it’s rejected.
+Just Inside the Bounds: We’ll test with 18 years and 65 years to ensure they are accepted.
+Just Outside the Bounds: We’ll test with 17 years and 66 years to verify they are rejected.
+
+equi
+
+Example: College Admission Percentage Validation
+Suppose we have a college admission system that accepts student applications based on their percentage. The percentage field should only accept values between 50% and 90%. Here’s how we can apply equivalence partitioning:
+
+Valid Equivalence Class (Inside Bounds):
+Input: 75%
+Expected Result: Accepted (within the valid range)
+Invalid Equivalence Class (Below Lower Bound):
+Input: 40%
+Expected Result: Rejected (outside the valid range)
+Invalid Equivalence Class (Above Upper Bound):
+Input: 95%
+Expected Result: Rejected (outside the valid range)
+By testing these equivalence classes, we ensure that the system handles both valid and invalid inputs correctly. 🎓
+
+Remember, equivalence partitioning helps us focus on critical points and uncover potential defects efficiently. 🚀
+
+decision
+
+Example: Login Screen Decision Table
+Suppose we have a login screen for a web application. The conditions for user authentication are as follows:
+
+Username: The user provides a username.
+Password: The user provides a password.
+The system behavior depends on the combination of these inputs:
+
+If both the username and password are correct, the user is redirected to the homepage.
+If either the username or password is incorrect, an error message is displayed.
+Let’s create a decision table to capture this behavior:
+
+Conditions	Rule 1	Rule 2	Rule 3	Rule 4
+Username (T/F)	F	T	F	T
+Password (T/F)	F	F	T	T
+Output (E/H)	E	E	E	H
+Legend:
+T: Correct username/password
+F: Wrong username/password
+E: Error message is displayed
+H: User is redirected to the homepage
+Interpretation:
+
+Case 1: Both username and password were wrong. The user sees an error message.
+Case 2: Username was correct, but the password was wrong. The user sees an error message.
+Case 3: Username was wrong, but the password was correct. The user sees an error message.
+Case 4: Both username and password were correct, and the user navigates to the homepage.
+
+state transition
+xample: ATM System State Transition
+Consider an ATM system where the following rules apply:
+
+If the user enters an invalid password three times, the account will be locked.
+If the user enters a valid password in any of the first three attempts, the user will be logged in successfully.
+Let’s create a state transition diagram for this scenario:
+
+States:
+Locked: Account is locked due to three invalid password attempts.
+Unlocked: Account is unlocked after a valid password entry.
+Transitions:
+From Locked to Unlocked: When a valid password is entered.
+From Unlocked to Locked: After three consecutive invalid password attempts.
+Events:
+Valid Password Entry: Transition from Locked to Unlocked.
+Invalid Password Entry: Transition from Unlocked to Locked.
+
+error guessing
+
+Suppose a tester is evaluating a web application for account creation. Using error guessing, they might anticipate the following errors:
+Invalid email address format
+Weak password
+Duplicate usernames
+User profile not properly saved
