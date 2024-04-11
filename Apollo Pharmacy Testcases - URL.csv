@@ -1,0 +1,4 @@
+Test Case id,Priority                                          ,Suite,Test Case,Precondition,Steps,Expected Result,Result,Doubts
+TC_URL_01,P0,Smoke,Verify the URL of Apollo Pharmacy,"User should have a internet connection
+User should have a browser installed","1. Click on the Apollo Pharmacy URL.
+2. Match the URL ""https://www.apollopharmacy.in/""","The URL should match with ""https://www.apollopharmacy.in/""",Pass,
